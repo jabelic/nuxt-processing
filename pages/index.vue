@@ -74,11 +74,17 @@
         </v-card-actions>
       </v-card>
     </v-col>
-    <a href="">
+  </v-row>
+  <v-row>
+    <v-col>
+      <v-card>
+  <a href="">
     <div id="wrapper">
         <canvas id="processing-canvas" data-processing-sources="sample.pde"></canvas>
     </div>
     </a>
+    </v-card>
+    </v-col>
   </v-row>
 </div>
 </template>
